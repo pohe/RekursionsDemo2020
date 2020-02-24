@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RekursionsDemo2020", "RekursionsDemo2020.csproj", "{19B92561-21D8-4E5C-9922-725779080CD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B92561-21D8-4E5C-9922-725779080CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B92561-21D8-4E5C-9922-725779080CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B92561-21D8-4E5C-9922-725779080CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B92561-21D8-4E5C-9922-725779080CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85BCB922-DD3E-4637-843E-BA7B0B77B97A}
+	EndGlobalSection
+EndGlobal
