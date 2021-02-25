@@ -25,6 +25,15 @@ namespace RekursionsDemo2020
             
         }
 
+        public void PrintHelloIterativ(int antalKald)
+        {
+            for (int i = 0; i < antalKald; i++)
+            {
+                Console.WriteLine("Hello");
+            }
+            
+
+        }
 
         public int AddNumbersIterativt(int number)
         {
@@ -33,14 +42,12 @@ namespace RekursionsDemo2020
             {
                 sum = sum + i;
             }
-
             return sum;
         }
 
 
         public int AddNumbersRekursivt(int number)
         {
-            
             if (number > 0)
             { 
                 return  number + AddNumbersRekursivt(number - 1);
@@ -51,13 +58,13 @@ namespace RekursionsDemo2020
 
         public int Factorial(int number)
         {
-            if (number > 0)
+            if (number > 1)
             {
                 return number * Factorial(number - 1);
             }
             return 1;
 
-            //return (number > 0) ? number * Factorial(number - 1) : 1;
+            //return (number > 1) ? number * Factorial(number - 1) : 1;
         }
 
         public int FactorialIterativt(int number)
@@ -104,7 +111,53 @@ namespace RekursionsDemo2020
             return sum;
 
         }
-        
+
+
+        //txt aksel    l e s k a
+        public void ReverseStringIterativ(string txt)
+        {
+            for (int i = txt.Length-1 ; i >=0  ; i-- )
+            {
+                //string t = txt.Substring(i, 1);
+
+                Console.Write(txt[i] + " ");
+            }
+        }
+
+
+        //aksel   l e s k a
+        public void ReverseStringRekursivt(string txt)
+        {
+            if (txt.Length < 2)
+            {
+                Console.Write(txt.Substring(0, 1) + " ");
+            }
+            else
+            {
+                string firstLetter = txt.Substring(0, 1);
+                   
+                ReverseStringRekursivt(txt.Substring(1, txt.Length - 1));
+
+                Console.Write(firstLetter + " ");
+            }
+        }
+
+
+        public string ReverseStringRekursivttxt(string txt)
+        {
+            if (txt.Length < 2)
+            {
+                return txt.Substring(0, 1) + " ";
+            }
+            else
+            {
+                string firstLetter = txt.Substring(0, 1);
+
+                return ReverseStringRekursivttxt(txt.Substring(1, txt.Length - 1)) + firstLetter + " ";
+
+            }
+        }
+
 
         public void FindFiler(string sti)
         {
@@ -165,6 +218,9 @@ namespace RekursionsDemo2020
             }
 
         }
+
+        
+
     }
 
 }
