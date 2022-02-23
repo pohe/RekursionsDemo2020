@@ -13,7 +13,7 @@ namespace RekursionsDemo2020
             RecursionEx r = new RecursionEx();
 
             //r.PrintHello();
-            // r.PrintHello(3);
+            r.PrintHello(3);
             //r.PrintHelloIterativ(3);
             //Console.WriteLine($"Add numbers up to 5 iterativt {r.AddNumbersIterativt(5)}");
 
@@ -37,12 +37,12 @@ namespace RekursionsDemo2020
             //RecursionEx.Node mor= r.DanTræ();
             //r.PrintTal(mor);
 
-            string pegA = "pegA";
-            string pegB = "pegB";
-            string pegC = "pegC";
+            //string pegA = "pegA";
+            //string pegB = "pegB";
+            //string pegC = "pegC";
 
 
-            r.TowersOfHanoi(pegA, pegB, pegC, 3);
+            //r.TowersOfHanoi(pegA, pegB, pegC, 6);
 
             Console.ReadLine();
         }
